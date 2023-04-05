@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+height: 100vh;
+width: 100%;
+background-image: url("../img/gambar.png");
+background-size: cover;
+background-position: center;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #de1b63;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #de1b63;
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content i{
+    letter-spacing: 10px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: whitesmoke;
+}
+.about-text{
+    width: 600px;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text span{
+    color:#de1b63;
+}
+
+.about-text p{
+    margin-bottom: 45px;
+}
+
+.about-text button{
+    background-color: #de1b63;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+}
+.about-text button:hover{
+    color: black;
+    transition: .4s;
+}
+
+/* Experience */
+.experience{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f5eaec;
+}
+
+.experience h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+
+.experience-text{
+    width: 565px;
+}
+
+.main-experience{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 8% 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact{
+    width: 100%;
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+
+.contact h2{
+    font-size: 50px;
+    margin-left: 8%;
+}
+
+.contact-card{
+    margin: 20px 70px;
+    display: flex;
+    text-align: center;
+    padding : 0 70px;
+    flex-wrap: wrap;
+  }
+
+  .contact-card a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .contact-item{
+    width: 220px;
+    height: 40px;
+    background-color: whitesmoke;
+    /* mengatur semua sudut (kiri atas, kanan atas, kiri bawah, dan kanan bawah) dengan nilai tertentu. */
+    border-radius: 5px;
+    margin: 0 10px;
+    /* ngasih soace antar box kategori dokter atas dan bawah */
+    padding: 30px 10px;
+  }
+  .contact-item img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+  }
+
+
+  .contact-item h4{
+    font-size: 20px;
+  }
+
+  
+
+.main-information{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 8% 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.information-text{
+    width: 1130px;
+}
+.information-text ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+.information-text a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ABOUT */
+.hero-about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/fotoabout.png);
+    background-size: cover;
+    background-position: center;
+    }
+.content-about{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+.content-about h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-about i{
+    letter-spacing: 10px;
+}
+
+.content-me{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f5eaec;
+}
+.contentme-text{
+    width: 1130px;
+}
+.contentme-text h2{
+    font-size: 50px;
+}
+.contentme-text p{
+    font-size: 25px;
+}
+
+/* EDUCATION */
+.education{
+    width: 100%;
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+
+.education h2{
+    font-size: 50px;
+    margin-left: 6%;
+}
+
+.main-education{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+}
+
+.education-text{
+    width: 565px;
+}
+
+.education-text ul li{
+    list-style-type: none;
+}
+
+.experience-about{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f5eaec;
+}
+.experience-about h2{
+    font-size: 50px;
+    margin-left: 6%;
+}
+.main-experience-about{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+}
+.experience-text-about{
+    width: 565px;
+}
+
+/* Portfolio */
+.hero-portfolio{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/portfoliohero.png);
+    background-size: cover;
+    background-position: center;
+}
+.content-portfolio{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+}
+
+.content-portfolio h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-portfolio h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.portofolio{
+    width: 100%;
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+.main-portfolio{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-portfolio img{
+    height: auto;
+    width: 400px;
+    margin: 45px 45px 45px 45px;
+}
+
+.portfolio-text h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.porfolio-text span{
+    color:#de1b63;
+}
+
+.portfolio-text p{
+    margin-bottom: 45px;
+}
+
+/* ARTICLE */
+.hero-article{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/portfoliohero.png);
+    background-size: cover;
+    background-position: center;
+}
+.content-article{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+}
+.content-article h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-article h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.article-card{
+    margin: 20px 70px;
+    display: flex;
+    text-align: center;
+    padding : 0 70px;
+    flex-wrap: wrap;
+  }
+
+  .article-item{
+    width: 450px;
+    height: 600px;
+    background-color: #ffffff;
+    /* mengatur semua sudut (kiri atas, kanan atas, kiri bawah, dan kanan bawah) dengan nilai tertentu. */
+    border-radius: 5px;
+    margin: 0 50px 50px 0;
+    /* ngasih soace antar box kategori dokter atas dan bawah */
+    padding: 30px 10px;
+  }
+  .article-item img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .article-item h4{
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .article-item p{
+    text-align: left;
+  }
+
+  .article-item:hover{
+    background-color: #fff;
+    border: #E3E9ED 1px solid;
+    /* box-shadow digunakan untuk membuat bayangan untuk kotak atau elemen kontainer. */
+    box-shadow: 17px -4px 50px 0px #5252521A;
+  }
+
